@@ -96,10 +96,10 @@
 
         L1 {
             bindings = <
-&none  &trans  &kp ESCAPE  &kp TILDE      &kp EQUAL       &kp UP_ARROW    &kp PRINTSCREEN    &kp N7  &kp N8  &kp N9  &kp N0           &kp ASTERISK  &trans             &none
-       &trans  &kp GRAVE   &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp N4  &kp N5  &kp N6  &kp SLASH        &kp MINUS     &kp RIGHT_SHIFT
-       &trans  &kp HOME    &kp PAGE_DOWN  &kp END         &kp CAPSLOCK    &kp INSERT         &kp N1  &kp N2  &kp N3  &mt FSLH KP_DOT  &kp KP_PLUS   &kp RIGHT_CONTROL
-                                          &trans          &trans          &trans             &trans  &trans  &trans
+&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET         &kp N7  &kp N8      &kp N9         &kp ASTERISK  &kp FSLH  &trans     &none
+       &trans           &trans       &trans    &kp PIPE    &kp AMPERSAND  &kp EQUAL         &kp N4  &kp N5      &kp N6         &kp MINUS     &kp BSLH  &kp GRAVE
+       &trans           &kp F18      &kp F19   &kp F20     &kp TILDE      &kp UNDERSCORE    &kp N1  &kp N2      &kp N3         &kp PLUS      &trans    &trans
+                                               &trans      &trans         &trans            &kp N0  &kp KP_DOT  &kp LG(SPACE)
             >;
         };
 
