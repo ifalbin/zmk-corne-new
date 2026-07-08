@@ -32,12 +32,6 @@
             bindings = <&kp DELETE>;
             key-positions = <12 11>;
         };
-
-        ddd {
-            bindings = <&mo 4>;
-            key-positions = <42 39>;
-            layers = <4>;
-        };
     };
 
     behaviors {
@@ -147,12 +141,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        ddd {
-            if-layers = <0 1 2>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
