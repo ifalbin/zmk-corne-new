@@ -116,7 +116,7 @@
             bindings = <
 &none  &trans  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6     &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &trans     &none
        &trans  &kp EXCLAMATION           &kp AT_SIGN           &kp PIPE            &kp AMPERSAND        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PLUS                &kp MINUS              &kp ASTERISK                   &kp FSLH                        &kp EQUAL
-       &trans  &none                     &none                 &kp HASH            &kp DOLLAR           &kp LESS_THAN           &kp GREATER_THAN       &kp PERCENT             &kp UNDERSCORE         &kp CARET                      &kp BSLH                        &trans
+       &trans  &trans                    &trans                &kp HASH            &kp DOLLAR           &kp LESS_THAN           &kp GREATER_THAN       &kp PERCENT             &kp UNDERSCORE         &kp CARET                      &kp BSLH                        &trans
                                                                &kp PRINTSCREEN     &kp F8               &kp F5                  &trans                 &trans                  &trans
             >;
         };
