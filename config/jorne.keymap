@@ -96,9 +96,9 @@
 
         L1 {
             bindings = <
-&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET         &kp N7  &kp N8        &kp N9            &kp ASTERISK  &trans  &trans  &none
-       &trans           &trans       &trans    &kp PIPE    &kp AMPERSAND  &kp EQUAL         &kp N4  &kp N5        &kp N6            &kp MINUS     &trans  &trans
-       &trans           &kp F18      &kp F19   &kp F20     &kp TILDE      &kp UNDERSCORE    &kp N1  &kp N2        &kp N3            &kp PLUS      &trans  &trans
+&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET         &kp N7  &kp N8        &kp N9            &kp ASTERISK  &kp FSLH  &trans  &none
+       &trans           &trans       &trans    &kp PIPE    &kp AMPERSAND  &kp EQUAL         &kp N4  &kp N5        &kp N6            &kp MINUS     &kp PIPE  &trans
+       &trans           &kp F18      &kp F19   &kp F20     &kp TILDE      &kp UNDERSCORE    &kp N1  &kp N2        &kp N3            &kp PLUS      &trans    &trans
                                                &trans      &trans         &trans            &trans  &kp NUMBER_0  &mt SLASH KP_DOT
             >;
         };
@@ -114,10 +114,10 @@
 
         L3 {
             bindings = <
-&none  &trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5                  &kp NUMBER_6           &kp NUMBER_6  &kp N8          &kp N9        &kp N0    &trans     &none
-       &trans  &kp EXCLAMATION  &kp QUESTION  &kp PIPE      &kp AMPERSAND  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PLUS      &kp MINUS       &kp ASTERISK  &kp FSLH  &kp GRAVE
-       &trans  &kp TILDE        &kp HASH      &kp AT_SIGN   &kp DOLLAR     &kp LESS_THAN           &kp GREATER_THAN       &kp CARET     &kp UNDERSCORE  &kp PRCNT     &kp BSLH  &trans
-                                              &trans        &kp EQUAL      &trans                  &trans                 &trans        &trans
+&none  &trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5                  &kp NUMBER_6           &kp N7     &kp N8          &kp N9        &kp N0    &trans     &none
+       &trans  &kp EXCLAMATION  &kp QUESTION  &kp PIPE      &kp AMPERSAND  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PLUS   &kp MINUS       &kp ASTERISK  &kp FSLH  &kp GRAVE
+       &trans  &kp TILDE        &kp HASH      &kp AT_SIGN   &kp DOLLAR     &kp LESS_THAN           &kp GREATER_THAN       &kp CARET  &kp UNDERSCORE  &kp PRCNT     &kp BSLH  &trans
+                                              &trans        &kp EQUAL      &trans                  &trans                 &trans     &trans
             >;
         };
 
